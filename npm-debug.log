@@ -1,0 +1,32 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'link', 'md-links' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose link symlinking /usr/local/lib/node_modules/md-links to /home/laboratoria/SAP003-md-links/node_modules/md-links
+5 silly gentlyRm /home/laboratoria/SAP003-md-links/node_modules/md-links is being purged
+6 verbose gentlyRm don't care about contents; nuking /home/laboratoria/SAP003-md-links/node_modules/md-links
+7 silly vacuum-fs purging /home/laboratoria/SAP003-md-links/node_modules/md-links
+8 silly vacuum-fs quitting because other entries in /home/laboratoria/SAP003-md-links/node_modules
+9 info build /home/laboratoria/SAP003-md-links/node_modules/md-links
+10 info linkStuff md-links@1.0.0
+11 silly linkStuff md-links@1.0.0 has /home/laboratoria/SAP003-md-links/node_modules as its parent node_modules
+12 verbose linkBins md-links@1.0.0
+13 verbose link bins [ { 'md-links': '.lib/cli.js' },
+13 verbose link bins   '/home/laboratoria/SAP003-md-links/node_modules/.bin',
+13 verbose link bins   false ]
+14 verbose linkMans md-links@1.0.0
+15 verbose stack Error: ENOENT: no such file or directory, chmod '/home/laboratoria/SAP003-md-links/node_modules/md-links/.lib/cli.js'
+16 verbose cwd /home/laboratoria/SAP003-md-links
+17 error Linux 5.0.0-36-generic
+18 error argv "/usr/bin/node" "/usr/bin/npm" "link" "md-links"
+19 error node v8.10.0
+20 error npm  v3.5.2
+21 error path /home/laboratoria/SAP003-md-links/node_modules/md-links/.lib/cli.js
+22 error code ENOENT
+23 error errno -2
+24 error syscall chmod
+25 error enoent ENOENT: no such file or directory, chmod '/home/laboratoria/SAP003-md-links/node_modules/md-links/.lib/cli.js'
+26 error enoent ENOENT: no such file or directory, chmod '/home/laboratoria/SAP003-md-links/node_modules/md-links/.lib/cli.js'
+26 error enoent This is most likely not a problem with npm itself
+26 error enoent and is related to npm not being able to find a file.
+27 verbose exit [ -2, true ]
