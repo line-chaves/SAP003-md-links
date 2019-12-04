@@ -24,8 +24,7 @@ http://algo.com/2/3/ Link de algo
 https://outra-coisa-.net/algum-doc.html algum doc
 http://google.com/ Google
 ```
-## JavaScript
-A biblioteca tambem pode ser importada tambem, utilizando o require, por exemplo:
+## Como utilizar:
 ``` js
 const mdLinks = require("md-links");
 
@@ -35,3 +34,15 @@ mdLinks("./example.md")
   })
   .catch(console.error);
 ```
+
+## Valor de retorno:
+A biblioteca retorna um promessa, que resolve um array que contêm varios objetos com o link (href) e o texto (text). 
+
+    [
+      {
+        href: http://linkExemplo.com/2/3/ ,
+        text: Texto de exemplo
+      }
+      ...
+    ]
+
