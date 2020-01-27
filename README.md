@@ -46,3 +46,7 @@ A biblioteca retorna um promessa, que resolve um array que contêm varios objeto
       ...
     ]
 
+## Código.
+Como se trata de um projeto back-end, segue a baixo um trecho de código que eu considero importante no projeto. 
+
+<img src="./lib/image/Mdlinks.jpg" alt="Imagem do código" title="Imagem do código">
